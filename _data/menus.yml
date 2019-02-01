@@ -1,8 +1,5 @@
 ---
 header:
-- url: https://twitter.com/robjefferson
-  weight: 3
-  title: Twitter
   - url: /
     title: Home
     identifier: home
