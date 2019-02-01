@@ -39,3 +39,5 @@ fields:
   label: Profile
   name: profile
   description: Used for author hCard
+pages:
+- _posts/i-can-now-see-the-wood-and-the-trees.md
