@@ -1,4 +1,4 @@
 - name: Home
-  link: /
+  url: /
 - name: Blog
-  link: /blog.html
+  url: /blog/
