@@ -40,4 +40,4 @@ fields:
   name: profile
   description: Used for author hCard
 pages:
-- _posts/test.md
+- _posts/2019-02-02-test.md
