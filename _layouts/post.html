@@ -3,7 +3,7 @@ layout: default
 description: {{ post.excerpt }}
 ---
 <article class="h-entry">
-<h1 class="mb-3 p-name">{{ page.cleantitle }}</h1>
+<h1 class="mb-3 p-name">{{ page.title }}</h1>
 <p><time class="dt-published" datetime="{{ page.date }}">{{ page.date | date_to_string }}</time> - <a href="{{ page.profile }}" class="p-author h-card" rel="author">{{ page.author }}</a></p>
 
 <span class="e-content">{{ content }}</span>
