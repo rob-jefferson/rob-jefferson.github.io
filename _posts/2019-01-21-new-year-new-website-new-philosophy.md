@@ -1,7 +1,9 @@
 ---
 layout: post
+title:  "New Year, New Website, New Philosophy"
+date:   2019-01-21 22:00:00 +0000
+categories: general
 author: Rob Jefferson
-cleantitle: New Year, New Website, New Philosophy.
 profile: https://www.robjefferson.uk
 ---
 
