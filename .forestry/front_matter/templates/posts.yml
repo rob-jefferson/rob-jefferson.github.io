@@ -1,0 +1,41 @@
+---
+label: Posts
+hide_body: false
+is_partial: false
+fields:
+- type: select
+  name: layout
+  config:
+    source:
+      type: simple
+    options:
+    - post
+    - page
+  label: Layout
+  description: The layout used for this type of content
+- type: text
+  name: title
+  label: Title
+  description: The title of the post
+- type: datetime
+  name: date
+  label: Date
+  config:
+    date_format: DD/MM/YYYY
+- type: tag_list
+  name: categories
+  label: Categories
+  description: Tags to help categorise posts
+- type: select
+  name: author
+  config:
+    source:
+      type: simple
+    options:
+    - Rob Jefferson
+  label: Author
+  default: Rob Jefferson
+- type: text
+  label: Profile
+  name: profile
+  description: Used for author hCard
