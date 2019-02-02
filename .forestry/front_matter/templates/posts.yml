@@ -39,5 +39,3 @@ fields:
   label: Profile
   name: profile
   description: Used for author hCard
-pages:
-- _posts/2019-02-02-test.md
