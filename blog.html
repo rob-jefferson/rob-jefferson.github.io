@@ -4,7 +4,7 @@ permalink: /blog
 title: Blog
 description: Blog posts written by Rob Jefferson
 ---
-<h1 class="mb-3">All Posts</h1>
+<h1 class="mb-3">Blog archive by year</h1>
 <!--<ul class="list-unstyled">
   {% for post in site.posts %}
     <li>
@@ -20,15 +20,14 @@ description: Blog posts written by Rob Jefferson
         {%- assign year = post.date | date: '%Y' -%}
         {%- assign prev_year = post.next.date | date: '%Y' -%}
         {%- if year != prev_year -%}
-          <header><h2>{{ post.date | date: '%Y' }}</h2></header>
+          <header><h2 class="mt-3">{{ post.date | date: '%Y' }}</h2></header>
         {%- endif -%}
       {%- else -%}
-        <header><h2>{{ post.date | date: '%Y' }}</h2></header>
+        <header><h2 class="mt-3">{{ post.date | date: '%Y' }}</h2></header>
       {%- endif -%}
-      <ul class="list-unstyled">
-      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-      </ul>
+        <div class="list-group">
+            <a class="list-group-item list-group-item-action" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </div>
     {%- endfor -%}
   </article>
 </main> 

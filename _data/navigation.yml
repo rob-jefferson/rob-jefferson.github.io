@@ -2,7 +2,7 @@
 - name: Home
   link: "/"
   new-window: false
-- name: Blog
+- name: Blog archive
   link: "/blog"
   new-window: false
 - name: Research
