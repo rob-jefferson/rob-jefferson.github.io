@@ -6,7 +6,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                 {% for item in site.data.navigation %}
-                        <li class="nav-item"><a href="{{ item.link }}" title="Go to {{ item.name }}" {% if page.url == item.link %} class="nav-link active" {% else %} class="nav-link" {% endif %}>
+                        <li class="nav-item"><a href="{{ item.link }}" {% if item.new-window == true %} target="_blank" {% else %} {% endif %} title="Go to {{ item.name }}" {% if page.url == item.link %} class="nav-link active" {% else %} class="nav-link" {% endif %}>
                         {{ item.name }}</a></li>
         {% endfor %}
         </ul>
