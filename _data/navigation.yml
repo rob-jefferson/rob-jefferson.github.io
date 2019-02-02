@@ -1,10 +1,4 @@
 ---
-- name: LinkedIn
-  link: https://www.linkedin.com/in/robjjefferson/
-  new-window: true
-- name: GitHub
-  link: https://github.com/rob-jefferson
-  new-window: true
 - name: Home
   link: "/"
   new-window: false
@@ -13,4 +7,10 @@
   new-window: false
 - name: Twitter
   link: https://twitter.com/robjefferson
+  new-window: true
+- name: GitHub
+  link: https://github.com/rob-jefferson
+  new-window: true
+- name: LinkedIn
+  link: https://www.linkedin.com/in/robjjefferson/
   new-window: true
