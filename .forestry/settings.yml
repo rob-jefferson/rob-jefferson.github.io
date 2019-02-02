@@ -12,6 +12,10 @@ sections:
 - type: jekyll-pages
   label: Pages
   create: all
+- type: document
+  path: _data/navigation.yml
+  label: Navigation
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
