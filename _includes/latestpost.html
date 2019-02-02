@@ -1,8 +1,10 @@
-<div class="mb-3 col-md-8">
+<div class="col-md-8 ">
         <h2>Latest posts</h2>
         {% for post in site.posts limit:5 %}
-        <a href="{{ post.url }}" title="Read the full article"><h3 class="card-title">{{ post.title }}</h3></a>
+        <article class="border-bottom mb-3">
+        <h3 class="card-title"><a href="{{ post.url }}" title="Read the full article">{{ post.title }}</a></h3>
         <p class="text-muted">{{ post.date | date_to_string}}</p>
-        <p class="card-text">{{ post.excerpt }}</p>
+        <p class="card-text">{{ post.excerpt }} <small><a href="{{ post.url }}" title="Read the full article"><em>Continue reading this post</em></a></small></p>
+        </article>
         {% endfor %}
 </div>
