@@ -1,4 +1,7 @@
 ---
+- name: GitHub
+  link: https://github.com/rob-jefferson
+  new-window: true
 - name: Home
   link: "/"
   new-window: false
