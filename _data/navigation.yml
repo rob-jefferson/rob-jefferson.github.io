@@ -1,4 +1,7 @@
+---
 - name: Home
-  link: /
+  link: "/"
 - name: Blog
-  link: /blog/
+  link: "/blog/"
+- name: Twitter
+  link: https://twitter.com/robjefferson
