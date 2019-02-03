@@ -17,6 +17,10 @@ fields:
   name: title
   label: Title
   description: The title of the post
+- type: file
+  label: Featured image
+  name: featured_image
+  description: Needs to be a ratio of 2:1
 - type: datetime
   name: date
   label: Date
