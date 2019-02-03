@@ -6,5 +6,5 @@ description: {{ post.excerpt }}
 <article class="h-entry col-md-8">
 <h1 class="mb-3 p-name">{{ page.title }}</h1>
 <p><time class="dt-published" datetime="{{ page.date }}">{{ page.date | date_to_string }}</time> - <a href="{{ page.profile }}" class="p-author h-card" rel="author">{{ page.author }}</a></p>
-<img class="img-fluid float-md-right" src="{{ page.featured_image }}" /><span class="e-content">{{ content }}</span>
+<img class="img-fluid mb-3" src="{{ page.featured_image }}" /><span class="e-content">{{ content }}</span>
 </article>
