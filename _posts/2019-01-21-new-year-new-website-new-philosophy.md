@@ -12,9 +12,11 @@ I've been pretty slack over the last few years when it comes to [working out lou
 
 ## 🌟 A fresh start
 
-So, this website is hopefully the start of something new. It's been a bit of a pet project that's brought together some long-overdue personal development on different projects; creating a [progressive web app](https://www.robjefferson.uk/brush-your-teeth/), version control with Git ([using GitHub](https://github.com/rob-jefferson), which is also hosting this very website via GitGub Pages), Boostrap 4 (as I've previously been using version 3) and now, [Jekyll](https://jekyllrb.com).
+So, this website is hopefully the start of something new. It's been a bit of a pet project that's brought together some long-overdue personal development on different projects; creating a [progressive web app](https://www.robjefferson.uk/brush-your-teeth/), version control with Git ([using GitHub](https://github.com/rob-jefferson), which is also hosting this very website via GitHub Pages), Boostrap 4 (as I've previously been using version 3) and now, [Jekyll](https://jekyllrb.com).
 
 It's also introduced me to [Dillinger](https://dillinger.io/) which is the web app I'm writing this blog post on. It's a snazzy Markdown editor that integrates directly with GitHub so is effectively acting as a basic CMS for my site. Actually, that's probably not right - it's more of a publishing system.
+
+In future, I'll probably move over to [Forestry](https://forestry.io/) to quicken publishing and tinker further.
 
 ## ⁉️ But, why?
 
