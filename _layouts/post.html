@@ -2,9 +2,17 @@
 layout: default
 description: {{ post.excerpt }}
 ---
-
 <article class="h-entry col-md-8">
 <h1 class="mb-3 p-name">{{ page.title }}</h1>
 <p><time class="dt-published" datetime="{{ page.date }}">{{ page.date | date_to_string }}</time> - <a href="{{ page.profile }}" class="p-author h-card" rel="author">{{ page.author }}</a></p>
 <img class="img-fluid mb-3" src="{{ page.featured_image }}" /><span class="e-content">{{ content }}</span>
 </article>
+<footer class="mt-5 border-top">
+<h2 class="mt-2">Read more</h2>
+<p">Not had enough yet? Take a look at <a href="/blog">my archive</a> or one of my last three posts:</p>
+<ul class="list-unstyled">
+    {% for post in site.posts limit:3 %}
+    <li><a href="{{ post.url }}" title="Read the full article">{{ post.title }}</a> - {{ post.date | date_to_string}}</li>
+    {% endfor %}
+</ul>
+</footer>
