@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  "New Year, New Website, New Philosophy"
-date:   2019-01-21 22:00:00 +0000
+title: New Year, New Website, New Philosophy
+date: 2019-01-21 22:00:00 +0000
 categories: general
 author: Rob Jefferson
 profile: https://www.robjefferson.uk
----
+featured_image: "/uploads/code.jpg"
 
+---
 I've been pretty slack over the last few years when it comes to [working out loud](https://workingoutloud.com/) (WOL). I do have [a blog](https://robertjefferson.wordpress.com) but just a quick check through the archives reveals an average of one or two posts per year. Although the posts themselves are fairly comprehensive and thoughtful (even if I do say so myself) given the irregular posting it's not surprising that it's hardly a hive of activity or engagement. Instead of WOL through long form blog posts, I've tended to focus more on microblogging via [Twitter](https://twitter.com/robjefferson).
 
 ## 🌟 A fresh start
