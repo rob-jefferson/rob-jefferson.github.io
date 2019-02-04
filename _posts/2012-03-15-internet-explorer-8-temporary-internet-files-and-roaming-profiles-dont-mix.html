@@ -19,6 +19,12 @@ tags:
 author: Rob Jefferson
 profile: https://www.robjefferson.uk
 ---
+<div class="card border-warning mb-3 bg-light">
+    <div class="card-body text-warning">
+      <h2 class="card-title">A note about this post</h2>
+      <p class="card-text">This post was imported from my old Wordpress blog so it's old and might not be formatted correctly.</p>
+    </div>
+</div>
 <p>Think I've finally solved a problem that's been bugging me for months. Was experiencing an issue whereby roaming users were finding that IE kept freezing or locking up a few seconds into loading.<!--more--> It was definitely user-based as I could log on with a different (local profiled) user and not experience any problems.</p>
 <p>Turns out there's an issue which I wasn't aware of with roaming profiles and IE temp files. This would explain why deleting the user profile and data would temporarilly fix the problem until the temp internet files file grew again.</p>
 <p>It's a really simple fix: in Tools -&gt; Internet Options, go to Advanced tab, scroll to Security and tick "Empty Temporary Internet Files folder when browser is closed". I'm hoping this will also fix a long log-off time too where I'm guessing it was having problems syncing the temp internet files.</p>
