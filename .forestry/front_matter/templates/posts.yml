@@ -29,6 +29,14 @@ fields:
   name: featured_image_caption
   label: Image caption
   description: " A caption for the feature image"
+- type: text
+  name: photo_credit
+  label: Photo credit
+  description: The name of the person who owns the copyright of the photo
+- type: text
+  name: photographer_url
+  label: Photographer URL
+  description: The link back to the original photo source
 - type: datetime
   name: date
   label: Date
