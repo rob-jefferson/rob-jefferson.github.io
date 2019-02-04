@@ -5,6 +5,9 @@
 - name: Blog archive
   link: "/blog"
   new-window: false
+- name: Public speaking
+  link: "/public-speaking"
+  new-window: false
 - name: Research
   link: /research-and-publications
   new-window: false
