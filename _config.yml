@@ -21,6 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://robjefferson.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: robjefferson
 github_username:  rob-jefferson
+paginate: 5
 
 # Build settings
 markdown: kramdown
@@ -28,6 +29,7 @@ plugins:
   - jekyll-feed
   - jekyll-menus
   - jekyll-sitemap
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
