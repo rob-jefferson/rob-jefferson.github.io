@@ -11,7 +11,6 @@
     <link rel="apple-touch-icon" href="assets/images/rob-jefferson.jpg">
     <!-- Place favicon.ico in the root directory -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-    <!--<link rel="stylesheet" href="css/normalize.css">-->
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto" rel="stylesheet">
   </head>
@@ -23,6 +22,9 @@
     <div class="container">
         {{ content }}
     </div>
+    <footer class="footer">
+        {% include footer.html %}
+    </footer>
     <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
