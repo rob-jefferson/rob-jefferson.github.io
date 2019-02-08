@@ -1,0 +1,18 @@
+<h2>Read more</h2>
+<nav aria-label="Blog navigation">
+    <ul class="pagination">
+        {% if paginator.previous_page %}
+        <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path }}">&laquo; Newer posts</a></li>
+        {% else %}
+          <!--<span class="previous">Previous </span>-->
+        {% endif %}
+        <!--<span class="page_number ">
+           Page: {{ paginator.page }} of {{ paginator.total_pages }}
+        </span>-->
+        {% if paginator.next_page %}
+        <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path }}">Older posts &raquo;</a></li>
+        {% else %}
+          <!--<span class="next ">Next</span>-->
+        {% endif %}
+    </ul>
+</nav>
