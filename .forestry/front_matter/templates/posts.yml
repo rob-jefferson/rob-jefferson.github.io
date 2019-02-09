@@ -19,14 +19,14 @@ fields:
   description: The title of the post
 - type: file
   label: Featured image
-  name: featured_image
+  name: image
   description: Needs to be a ratio of 2:1
 - type: text
-  name: featured_image_alt
+  name: image_alt
   label: Featured image alternative text
   description: Alt text to describe the image
 - type: text
-  name: featured_image_caption
+  name: image_caption
   label: Image caption
   description: " A caption for the feature image"
 - type: text
