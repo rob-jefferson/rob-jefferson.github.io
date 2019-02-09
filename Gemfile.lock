@@ -77,6 +77,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-menus
   jekyll-paginate
+  jekyll-seo-tag
   jekyll-sitemap (~> 1.2)
   minima (~> 2.0)
   open_uri_redirections

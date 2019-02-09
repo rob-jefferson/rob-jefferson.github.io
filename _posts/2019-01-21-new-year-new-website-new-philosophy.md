@@ -6,6 +6,7 @@ date: 2019-01-21 22:00:00 +0000
 categories: general
 author: Rob Jefferson
 profile: https://www.robjefferson.uk
+image: "/uploads/code.jpg"
 featured_image: "/uploads/code.jpg"
 featured_image_alt: Lines of HTML code on a computer screen in black and white.
 featured_image_caption: Introducing my new website, coded using Jeykll, Bootstrap and Forestry.
