@@ -23,6 +23,21 @@ twitter_username: robjefferson
 github_username:  rob-jefferson
 paginate: 5
 
+# SEO Plugin fields
+author:
+  twitter: robjefferson
+twitter:
+  username: robjefferson
+  card: summary_large_image
+logo: /assets/images/rob-jefferson-thumb.jpg
+social:
+  name: Rob Jefferson
+  links:
+    - https://twitter.com/RobJefferson
+    - https://www.linkedin.com/in/robjjefferson
+    - https://github.com/rob-jefferson
+lang: en_GB
+
 # Build settings
 markdown: kramdown
 plugins:
@@ -30,6 +45,7 @@ plugins:
   - jekyll-menus
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

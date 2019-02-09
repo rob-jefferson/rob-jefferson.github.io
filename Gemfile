@@ -25,6 +25,7 @@ group :jekyll_plugins do
   gem "hpricot"
   gem "open_uri_redirections"
   gem 'jekyll-sitemap', '~> 1.2'
+  gem 'jekyll-seo-tag'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
