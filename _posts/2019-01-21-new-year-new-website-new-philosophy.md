@@ -7,9 +7,8 @@ categories: general
 author: Rob Jefferson
 profile: https://www.robjefferson.uk
 image: "/uploads/code.jpg"
-featured_image: "/uploads/code.jpg"
-featured_image_alt: Lines of HTML code on a computer screen in black and white.
-featured_image_caption: Introducing my new website, coded using Jeykll, Bootstrap and Forestry.
+image_alt: Lines of HTML code on a computer screen in black and white.
+image_caption: Introducing my new website, coded using Jeykll, Bootstrap and Forestry.
 ---
 I've been pretty slack over the last few years when it comes to [working out loud](https://workingoutloud.com/) (WOL). I do have [a blog](https://robertjefferson.wordpress.com) but just a quick check through the archives reveals an average of one or two posts per year. Although the posts themselves are fairly comprehensive and thoughtful (even if I do say so myself) given the irregular posting it's not surprising that it's hardly a hive of activity or engagement. Instead of WOL through long form blog posts, I've tended to focus more on microblogging via [Twitter](https://twitter.com/robjefferson).
 
