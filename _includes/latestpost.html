@@ -5,7 +5,7 @@
         <article class="border-bottom mb-3">
         <h3 class="card-title"><a href="{{ post.url }}" title="Read the full article">{{ post.title }}</a></h3>
         <p class="text-muted">{{ post.date | date_to_string}}</p>
-        <p class="card-text">{{ post.excerpt }}</p>
+        {{ post.excerpt }}
         <p><small><a href="{{ post.url }}" title="Read the full article"><em>Continue reading this post</em></a></small></p>
         </article>
         {% endfor %}
