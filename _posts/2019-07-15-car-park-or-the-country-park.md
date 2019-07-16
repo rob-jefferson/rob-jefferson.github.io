@@ -8,7 +8,9 @@ image_caption: Me and 007 (Alex; shaken, not stirred) post-ride.
 photo_credit: Alex Wright
 photographer_url: https://twitter.com/nowthenalbi
 date: 2019-07-15 23:00:00 +0000
-categories: []
+categories:
+- cycling
+- perseverance
 profile: ''
 
 ---
