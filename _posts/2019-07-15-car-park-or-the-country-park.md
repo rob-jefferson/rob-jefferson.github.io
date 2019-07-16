@@ -4,7 +4,7 @@ layout: post
 title: Car park or the country park?
 image: "/uploads/rob-and-alex-post-ride.jpg"
 image_alt: Me and Alex in our cycling gear looking rather dishevelled but happy.
-image_caption: Me and Alex post-ride.
+image_caption: Me and 007 (Alex; shaken, not stirred) post-ride.
 photo_credit: Alex Wright
 photographer_url: https://twitter.com/nowthenalbi
 date: 2019-07-15 23:00:00 +0000
