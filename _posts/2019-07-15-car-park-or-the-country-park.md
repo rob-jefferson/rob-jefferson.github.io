@@ -48,7 +48,7 @@ So what was the “special prize” I’d been given? Turns out, it was a free p
 
 It would be amiss of me not to take this opportunity to say a massive ‘thank you’ to [Duckworth Land Rover](https://www.landrover.co.uk/retailers/duckworth-market-rasen.html) at Market Rasen, the marshalls, Doddington Hall and anyone else involved in putting on what was a great event for a [worthy cause](https://www.macmillan.org.uk/).
 
-And the moral of this story? **Don’t stop at the car park if it’s actually the country park that you’re aiming for.**
+And the moral of this story? **Don’t settle for the car park if it’s the country park that you’re actually aiming for.**
 
 _*I’m presuming this is a very polite way of saying you were absolutely shit and came rock bottom of the timing board but fair play for trying._
 
