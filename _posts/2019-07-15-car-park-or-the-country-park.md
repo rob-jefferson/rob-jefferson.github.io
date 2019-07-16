@@ -20,9 +20,9 @@ Ahead of me was [Nettleton Hill](https://lincscyclist.wordpress.com/), [half a k
 
 Hill climbs aren't alien to me. In recent years I've \~enjoyed\~ endured the challenge of [Trapping Hill, AKA ‘Côte de Lofthouse’](https://www.visitharrogate.co.uk/things-to-do/killer-climbs-trapping-hill-cote-de-lofthouse-p1298051) on more than one occasion. It’s been [a segment](https://www.strava.com/segments/5911879) of several Tour de Yorkshire routes and will also be part of [this year’s UCI Road World Championships](https://worlds.yorkshire.com/the-races/women-elite-road-race/). It's three times the length of Nettleton Hill, more than twice the height and is a Category 3 climb. Having completed Trapping Hill without stopping in the past, Nettleton's offering should have been small-fry in comparison.
 
-There were a couple of problems though. Firstly, I’d only cycled a few times this year. Having a second child a few months ago meant that spare time for cycling had been limited to say the least. Secondly, I’d spent all of the previous day day digging stumps and roots out of the ground in the garden and sledge hammering fence posts. In short, I was knackered and certainly not ‘match-fit’ for this kind of thing.
+There were a couple of problems though. Firstly, I’d only cycled a few times this year. Having a second child a few months ago meant that spare time for cycling had been limited to say the least. Secondly, I’d spent all of the previous day digging stumps and roots out of the ground in the garden and sledge hammering fence posts. In short, I was knackered and certainly not ‘match-fit’ for this kind of thing.
 
-Despite having strong intentions _not_ to take it on, the weakest of peer pressured was applied and I’d buckled and agreed to do the climb. With stop-watch primed and clipboard...held, the marshal counted down: “5, 4, 3, 2, 1, GO! GOOD LUCK!”
+Despite having strong intentions _not_ to take it on, the weakest of peer pressured was applied so I’d buckled and agreed to do the climb. With stop-watch primed and clipboard...held, the marshal counted down: “5, 4, 3, 2, 1, GO! GOOD LUCK!”
 
 I trundled off with a sense of trepidation, not because of the fitness concerns, but because I hadn’t a clue what awaited me. The start point meant the hill was initially unsighted so it was only once I’d turned the corner that I got a sense of what I had to tackle. It didn’t look particularly bad but within a few cranks of the pedals once I’d reached the climb, I knew it was going to be tough.
 
@@ -32,7 +32,7 @@ Every fibre of my being was telling me to stop. To give up.
 
 And then I spotted a small car park on the right hand side of the climb.
 
-My immediate thought was that _this_ is the place I could bail out and turn round. This was it, my escape route. At this point, I also remembered that we were set off at spaced intervals of one minute. It wouldn’t be long before the next victim made their climb up the hill and overtook me. I stopped the bike to catch my breath and compose myself.
+My immediate thought was that _this_ is the place I could bail out and turn round. This was it; my escape route. At this point I also remembered that we were set off at spaced intervals of one minute. It wouldn’t be long before the next victim made their climb up the hill and overtook me. I stopped the bike to catch my breath and compose myself.
 
 Sure enough, the next cyclist soon reached me. He kindly asked if I was alright. In return, I mumbled a made-up excuse about a sore knee and encouraged him to continue. For whatever reason (probably the potential ripping I’d receive from Alex, and the personal shame I’d feel from the torrid experience of bailing out) I decided to carry on.
 
