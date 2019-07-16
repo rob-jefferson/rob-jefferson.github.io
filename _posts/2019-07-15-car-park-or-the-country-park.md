@@ -12,7 +12,7 @@ categories: []
 profile: ''
 
 ---
-Just to manage expectations, this post is about the potential rewards which can be enjoyed through perseverance, rather than a THRILLING read about urban planning. If that's what you're here for, sorry to disappoint you. If not, read on...
+Just to manage expectations, this post is about the potential rewards which can be enjoyed through perseverance, rather than a THRILLING read about urban planning or other perhaps more...risqué night time activities . If that's what you're here for, sorry to disappoint you. If not, read on...
 
 [Lincolnshire is renowned](https://en.wikipedia.org/wiki/Flag_of_Lincolnshire) for its vast blue skies, bright yellow crops and rich, lush green fields. Last Sunday was not showcasing Lincolnshire in this way. Dark grey clouds loomed ominously overhead, casting a gloom across the crops. Meanwhile, I was clad head to toe in lyrca. Not for the hell of it, but as part of the Duckworth Wolds Discovery Macmillan Charity Event. It was a 35 mile pedal around the usually [stunning Wolds](https://lovelincolnshirewolds.com/).
 
@@ -28,7 +28,7 @@ I trundled off with a sense of trepidation, not because of the fitness concerns,
 
 I’d got about a quarter of the way up and I’d already had enough. Mentally, I wasn’t prepared. Physically, I wasn’t prepared.
 
-Every fibre of my being was telling me to stop. To give up. 
+Every fibre of my being was telling me to stop. To give up.
 
 And then I spotted a small car park on the right hand side of the climb.
 
