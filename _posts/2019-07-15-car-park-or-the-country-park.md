@@ -2,7 +2,7 @@
 author: Rob Jefferson
 layout: post
 title: Car park or the country park?
-image: "/uploads/rob-cycling.png"
+image: "/uploads/rob-cycling-on-a-road.png"
 image_alt: Rob on a bike cycling along a country road
 image_caption: ''
 photo_credit: Alex Wright
