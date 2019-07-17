@@ -8,9 +8,7 @@ image_caption: ''
 photo_credit: Alex Wright
 photographer_url: https://twitter.com/nowthenalbi
 date: 2019-07-15 23:00:00 +0000
-categories:
-- cycling
-- perseverance
+categories: []
 profile: ''
 
 ---
