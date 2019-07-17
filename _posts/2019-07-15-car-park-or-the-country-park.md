@@ -2,9 +2,9 @@
 author: Rob Jefferson
 layout: post
 title: Car park or the country park?
-image: "/uploads/rob-and-alex-post-ride.jpg"
-image_alt: Me and Alex in our cycling gear looking rather dishevelled but happy.
-image_caption: Me and 007 (Alex; shaken, not stirred) post-ride.
+image: "/uploads/rob-cycling.png"
+image_alt: Rob on a bike cycling along a country road
+image_caption: ''
 photo_credit: Alex Wright
 photographer_url: https://twitter.com/nowthenalbi
 date: 2019-07-15 23:00:00 +0000
