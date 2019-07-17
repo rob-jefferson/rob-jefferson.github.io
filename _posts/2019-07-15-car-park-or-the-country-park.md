@@ -44,7 +44,7 @@ My body recovered pretty well by the time I returned to work on Monday and wakin
 
 So what was the “special prize” I’d been given? Turns out, it was a free pass for [Doddington Hall](https://www.doddingtonhall.com/) near Lincoln who were one of the sponsors of the event. Result!
 
-It would be amiss of me not to take this opportunity to say a massive ‘thank you’ to [Duckworth Land Rover](https://www.landrover.co.uk/retailers/duckworth-market-rasen.html) at Market Rasen, the marshalls, Doddington Hall and anyone else involved in putting on what was a great event for a [worthy cause](https://www.macmillan.org.uk/).
+It would be miss of me not to take this opportunity to say a massive ‘thank you’ to [Duckworth Land Rover](https://www.landrover.co.uk/retailers/duckworth-market-rasen.html) at Market Rasen, the marshalls, Doddington Hall and anyone else involved in putting on what was a great event for a [worthy cause](https://www.macmillan.org.uk/).
 
 And the moral of this story? **Don’t settle for the car park if it’s the country park that you’re actually aiming for.**
 
