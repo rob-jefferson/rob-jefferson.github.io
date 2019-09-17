@@ -34,7 +34,7 @@ Given my public service background, what’s interesting about Knapton Wright is
 
 Similarly, Brigg’s always been an important place for me personally. I went to school there, worked at two previous jobs in the town, and I’ve lost count of the number of misspent Friday night pub crawls I’ve enjoyed/endured there!
 
-It’s a new direction for me, a significant career progression but I truly believe in the vision that Alex and Louise have set out. I’ll be joining them not only as a director but as a co-owner of the business, so my level of investment and believe in what they’re trying to acheive goes beyond just being an employee.
+It’s a new direction for me, a significant career progression but I truly believe in the vision that Alex and Louise have set out. I’ll be joining them not only as a director but as a co-owner of the business, so my level of investment and belief in what they’re trying to achieve goes beyond just being an employee.
 
 ## 👋 It’s not goodbye, it’s see you later
 
