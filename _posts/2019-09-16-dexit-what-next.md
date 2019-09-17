@@ -30,7 +30,7 @@ Alex and I have talked for a long time about how we could work together and thos
 
 ## 🤔 Why Knapton Wright?
 
-Given my public service background, what’s interesting about Knapton Wright is that although it’s quite obviously an ambitious and commercial organisation, it too cares about its community and is proud about the place it’s located in and helping the businesses around it. Alex’s passion about making KW the “creative castle” of the town and even becoming a creative hub for the wider area really sold it to me - it’s exciting, inspiring and community-spirited.
+Given my public service background, what’s interesting about Knapton Wright is that although it’s quite obviously an ambitious and commercial organisation, it too cares about its community and is proud about the place it’s located in and helping the businesses around it. Alex’s passion about making KW the “creative castle” of the town and even becoming a creative hub for the wider area really sold it to me - it’s exciting, inspiring and community-spirited. That's not to say that KW is only a local agency - it has national and international clients.
 
 Similarly, Brigg’s always been an important place for me personally. I went to school there, worked at two previous jobs in the town, and I’ve lost count of the number of misspent Friday night pub crawls I’ve enjoyed/endured there!
 
