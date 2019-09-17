@@ -20,7 +20,7 @@ That’s not to take away from the amazing times I’ve had producing stand out 
 
 ## 🔄 Time for a change
 
-After *checks LinkedIn profile* around 16 years in the public sector I’m ready for a change; to apply my skills and knowledge more commercially. I’ve toyed with the idea of going freelance for a while but a) family and b) I haven’t had the courage, frankly. Instead, I’ve been looking for something closer to home, with a bit more security and control but with the potential to rekindle my creativity, passion and ultimately to thrive.
+After * checks LinkedIn profile * around 16 years in the public sector I’m ready for a change; to apply my skills and knowledge more commercially. I’ve toyed with the idea of going freelance for a while but a) family and b) I haven’t had the courage, frankly. Instead, I’ve been looking for something closer to home, with a bit more security and control but with the potential to rekindle my creativity, passion and ultimately to thrive.
 
 Enter Knapton Wright.
 
