@@ -16,11 +16,11 @@ A while ago I announced my departure from Doncaster Council after nearly four an
 
 Job satisfaction has also suffered over the last 12 months or so. Ever-shrinking budgets (cheers central government…) have meant that the impact I wanted to make, particularly in relation to digital services, hasn’t been possible. Maybe I’ve just not tackled it right? Who knows...I truly hope my successor can crack it.
 
-That’s not to take away from the amazing times I’ve had producing stand out social media with the team, mind you. I’m immensely proud that together, we’ve managed to get regular national (and sometimes international) recognition for daring to be different online.
+That’s not to take away from the amazing times I’ve had producing stand out social media with the team, mind you. I’m immensely proud that, together, we’ve managed to get regular national and sometimes international recognition for daring to be different online.
 
 ## 🔄 Time for a change
 
-After * checks LinkedIn profile * around 16 years in the public sector I’m ready for a change; to apply my skills and knowledge more commercially. I’ve toyed with the idea of going freelance for a while but a) family and b) I haven’t had the courage, frankly. Instead, I’ve been looking for something closer to home, with a bit more security and control but with the potential to rekindle my creativity, passion and ultimately to thrive.
+After *checks LinkedIn profile* around 16 years in the public sector I’m ready for a change; to apply my skills and knowledge more commercially. I’ve toyed with the idea of going freelance for a while but a) family and b) I haven’t had the courage, frankly. Instead, I’ve been looking for something closer to home, with a bit more security and control but with the potential to rekindle my creativity, passion and ultimately to thrive.
 
 Enter Knapton Wright.
 
