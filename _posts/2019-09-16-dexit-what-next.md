@@ -14,7 +14,7 @@ profile: https://robjefferson.uk
 ---
 A while ago I announced my departure from Doncaster Council after nearly four and a half years of public service in South Yorkshire. Plenty has changed in my personal life since I joined the council back in May 2015 - most notably, getting married and becoming a father..twice. Having these family ties and being a (North) Lincolnshire lad means the commute has started to take its toll.
 
-More recently, ever-shrinking budgets (cheers central government…) have meant that the impact I've wanted to make, particularly in relation to digital services, hasn’t been possible. Maybe I’ve just not tackled it right? Who knows...I'm sure my successor can crack it.
+More recently, ever-shrinking budgets (cheers central government…) have meant that the impact I've wanted to make, particularly in relation to digital services, hasn’t been achievable. Maybe I’ve just not tackled it right? Who knows...I'm sure my successor can crack it.
 
 That’s not to take away from the amazing times I’ve had producing stand out social media with the team, mind you. I’m immensely proud that, together, we’ve managed to get regular national and sometimes international recognition for daring to be different online.
 
