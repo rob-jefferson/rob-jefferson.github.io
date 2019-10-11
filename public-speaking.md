@@ -1,13 +1,42 @@
 ---
 layout: default
 title: Public speaking
-permalink: /public-speaking
+permalink: "/public-speaking"
+
 ---
 # Public speaking
 I've been really lucky to be asked to to speak at conferences, be interviewed on podcasts and present webinars. Below is the list of my engagements.
 
 ## Upcoming engagements
-I have no upcoming engagements.
+### 2019
+<div class="card-columns">
+  <div class="card">
+    <div class="card-header">
+    🛠️ Workshop
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">South Tyneside Council with Comms2Point0 and Knapton Wright</h4>
+        <h5 class="card-subtitle mb-2 text-muted">South Shields</h5>
+        <p class="card-text">"Facebook advertising and social media tone of voice"</p>
+    </div>
+    <div class="card-footer">
+        <small class="text-muted">15th Oct 2019</small>
+    </div>
+    </div>  
+  <div class="card">
+    <div class="card-header">
+    🗣️ Sprint talk
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Northumbrian Water with Knapton Wright</h4>
+        <h5 class="card-subtitle mb-2 text-muted">Durham</h5>
+        <p class="card-text">"Social media tone of voice and content production"</p>
+    </div>
+    <div class="card-footer">
+        <small class="text-muted">15th Oct 2019</small>
+    </div>
+    </div>
+</div>
 
 ## Past engagements
 ### 2018
