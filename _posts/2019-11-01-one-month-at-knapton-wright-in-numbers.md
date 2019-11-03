@@ -27,7 +27,7 @@ This week I hit the one month mark at [Knapton Wright](https://www.knaptonwright
 
 🧶 2 [matching sweaters and cars](https://twitter.com/KnaptonWright/status/1180049309045313542)
 
-🗣️ 1 [presentations to new public sector clients](https://twitter.com/RobJefferson/status/1184178076504248320) on social media and tone of voice
+🗣️ 2 [presentations to new public sector clients](https://twitter.com/RobJefferson/status/1184178076504248320) on social media and tone of voice
 
 ☕ 23(ish) coffees courtesy of our new coffee machine
 
