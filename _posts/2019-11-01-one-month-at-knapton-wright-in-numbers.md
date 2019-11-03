@@ -15,6 +15,8 @@ profile: https://robjefferson.uk
 ---
 This week I hit the one month mark at [Knapton Wright](https://www.knaptonwright.co.uk). Where the hell did that time go? When you break it down into numbers, it’s quite staggering.
 
+\* takes a breath... *
+
 📛 3 conferences ([Tech Expo Humber](https://techexpohumber.com/), [Business Hive Live](https://twitter.com/KnaptonWright/status/1180150427733639169) and [CommsCamp North](https://twitter.com/RobJefferson/status/1186924065094864897))
 
 🤝 9 meetings with current and prospective clients, including a marketing reboot session and two kick-off sessions
