@@ -17,6 +17,8 @@ This week I hit the one month mark at [Knapton Wright](https://www.knaptonwright
 
 \* takes a breath... *
 
+***
+
 📛 3 conferences ([Tech Expo Humber](https://techexpohumber.com/), [Business Hive Live](https://twitter.com/KnaptonWright/status/1180150427733639169) and [CommsCamp North](https://twitter.com/RobJefferson/status/1186924065094864897))
 
 🤝 9 meetings with current and prospective clients, including a marketing reboot session and two kick-off sessions
@@ -56,6 +58,8 @@ This week I hit the one month mark at [Knapton Wright](https://www.knaptonwright
 And most importantly,
 
 🍻 1 PAWF (pint after work friday)
+
+***
 
 Life at Knapton Wright is clearly busy. It’s an ambitious company and it’s growing week by week. It’s also a fun, enjoyable and harmonious place to work. None of this is surprising though - [I recognised these things early on in my conversations with co-founders Alex and Louise](https://robjefferson.uk/2019/09/16/dexit-what-next.html#-why-knapton-wright) and these were the big reasons why I wanted to join.
 
