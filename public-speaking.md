@@ -56,10 +56,9 @@ If you'd like me to come and speak at your event, organisation or business then 
 <h4 class="card-title">Bishop Grosseteste University</h4>
 <h5 class="card-subtitle mb-2 text-muted">Lincoln</h5>
 <p class="card-text">Guest lecture on digital marketing to students on their BA Business course</p>
-<p class="card-link"><a href="https://go.granicus.com/leeds.html">Read more about this talk</a></p>
 </div>
 <div class="card-footer">
-<small class="text-muted">19 June 2018</small>
+<small class="text-muted">20th Feb 2020</small>
 </div>
 </div>
 <div class="card">
