@@ -12,6 +12,71 @@ If you'd like me to come and speak at your event, organisation or business then 
 
 ## Upcoming engagements
 
+### 2020
+
+<div class="card-columns">
+<div class="card">
+<div class="card-header">
+🛠️ Workshop
+</div>
+<div class="card-body">
+<h4 class="card-title">GAIN workshops for SMEs - Google Analytics Part 1</h4>
+<h5 class="card-subtitle mb-2 text-muted">e-Factor Enterprise Village, Grimsby</h5>
+<p class="card-text">"Google Analytics for Better Business – Beginner to Intermediate"</p>
+</div>
+<div class="card-footer">
+<small class="text-muted">4th Mar 2020</small>
+</div>
+</div>
+<div class="card">
+<div class="card-header">
+🛠️ Workshop
+</div>
+<div class="card-body">
+<h4 class="card-title">GAIN workshops for SMEs - Google Analytics Part 2</h4>
+<h5 class="card-subtitle mb-2 text-muted">e-Factor Enterprise Village, Grimsby</h5>
+<p class="card-text">"Google Analytics for Better Business – Intermediate to Advanced"</p>
+</div>
+<div class="card-footer">
+<small class="text-muted">11th Mar 2020</small>
+</div>
+</div>
+</div>
+
+## Past engagements
+
+### 2020
+
+<div class="card-columns">
+<div class="card">
+<div class="card-header">
+🗣️ Guest Lecture
+</div>
+<div class="card-body">
+<h4 class="card-title">Bishop Grosseteste University</h4>
+<h5 class="card-subtitle mb-2 text-muted">Lincoln</h5>
+<p class="card-text">Guest lecture on digital marketing to students on their BA Business course</p>
+<p class="card-link"><a href="https://go.granicus.com/leeds.html">Read more about this talk</a></p>
+</div>
+<div class="card-footer">
+<small class="text-muted">19 June 2018</small>
+</div>
+</div>
+<div class="card">
+<div class="card-header">
+🛠️ Workshop
+</div>
+<div class="card-body">
+<h4 class="card-title">GAIN workshops for SMEs - Social Media</h4>
+<h5 class="card-subtitle mb-2 text-muted">e-Factor Enterprise Village, Grimsby</h5>
+<p class="card-text">"Making the most of Social Media for Business"</p>
+</div>
+<div class="card-footer">
+<small class="text-muted">19th Feb 2020</small>
+</div>
+</div>
+</div>
+
 ### 2019
 
 <div class="card-columns">
@@ -42,8 +107,6 @@ If you'd like me to come and speak at your event, organisation or business then 
 </div>
 </div>
 </div>
-
-## Past engagements
 
 ### 2018
 
