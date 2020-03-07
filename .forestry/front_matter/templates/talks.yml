@@ -14,6 +14,7 @@ fields:
     - "\U0001F5E3️ Guest Lecture"
     - "\U0001F5E3️ Sprint talk"
     - "\U0001F310 Webinar"
+    - "\U0001F399️ Podcast"
     source:
       type: simple
       section: 
