@@ -40,3 +40,5 @@ fields:
   config:
     required: true
   label: Location
+pages:
+- _public-speaking/next-level-marketing.md
