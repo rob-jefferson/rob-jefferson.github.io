@@ -1,4 +1,41 @@
 ---
 label: Talks
 hide_body: false
-fields: []
+fields:
+- name: type
+  type: select
+  default: "\U0001F6E0️Workshop"
+  config:
+    required: true
+    options:
+    - "\U0001F5E3️ Conference talk"
+    - "\U0001F6E0️Workshop"
+    - "\U0001F5E3️ Guest Lecture"
+    - "\U0001F5E3️ Sprint talk"
+    - "\U0001F310 Webinar"
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Type
+  description: Type of engagement
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: true
+    date_format: DD/MM/YYYY
+    time_format: 
+    display_utc: false
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: location
+  type: text
+  config:
+    required: true
+  label: Location
