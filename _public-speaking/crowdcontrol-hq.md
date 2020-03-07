@@ -3,7 +3,6 @@ type: "\U0001F310 Webinar"
 date: 2018-08-22 23:00:00 +0000
 title: CrowdControl HQ
 location: Online
-published: false
 
 ---
 "How Doncaster Council developed its unique personality & voice for social media success"

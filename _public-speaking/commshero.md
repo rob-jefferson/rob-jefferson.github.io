@@ -3,7 +3,6 @@ type: "\U0001F6E0️Workshop"
 date: 2018-05-15 23:00:00 +0000
 title: CommsHero
 location: Leeds
-published: false
 
 ---
 "True Grit: Our story of social media success"
