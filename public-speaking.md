@@ -10,7 +10,29 @@ I've been really lucky to be asked to to speak at conferences, be interviewed on
 
 If you'd like me to come and speak at your event, organisation or business then please do [get in touch](mailto:rob@knaptonwright.co.uk).
 
-## Upcoming engagements
+<div class="card-columns">
+{% assign public-speaking2 = site.public-speaking | sort: 'date' | reverse %}
+{% capture currentDate %}
+      {{ 'now' | date_to_long_string}}
+    {% endcapture %}
+{% for public-speaking in public-speaking2 %}
+<div class="card">
+<div class="card-header">
+{{public-speaking.type}}
+</div>
+<div class="card-body">
+<h4 class="card-title">{{public-speaking.title}}</h4>
+<h5 class="card-subtitle mb-2 text-muted">{{public-speaking.location}}</h5>
+<p class="card-text">{{ public-speaking.content | markdownify }}</p>
+</div>
+<div class="card-footer">
+<small class="text-muted">{{public-speaking.date | date_to_long_string}}</small>
+</div>
+</div>
+{% endfor %}
+</div>
+
+<!--## Upcoming engagements
 
 ### 2020
 
@@ -179,4 +201,4 @@ If you'd like me to come and speak at your event, organisation or business then 
 <small class="text-muted">16th May 2018</small>
 </div>
 </div>
-</div>
+</div>-->
