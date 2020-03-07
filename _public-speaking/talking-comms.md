@@ -1,5 +1,5 @@
 ---
-type: "\U0001F6E0️Workshop"
+type: "\U0001F399️ Podcast"
 date: 2018-09-12 23:00:00 +0000
 title: Talking Comms
 location: Online
