@@ -10,6 +10,12 @@ I've been really lucky to be asked to to speak at conferences, be interviewed on
 
 If you'd like me to come and speak at your event, organisation or business then please do [get in touch](mailto:rob@knaptonwright.co.uk).
 
+<div class="card alert alert-warning">
+    <div class="card-body">
+      <p class="card-text">⚠ The layout and formatting of this section is a bit of a work in progress. I've recently changed the way these cards are created, using <a href="https://jekyllrb.com/docs/collections/">Jekyll's Collections feature</a>. The next stage is to reinstate separation between years and previous / upcoming engagements.</p>
+    </div>
+  </div>
+
 <div class="card-columns">
 {% assign public-speaking2 = site.public-speaking | sort: 'date' | reverse %}
 {% capture currentDate %}
