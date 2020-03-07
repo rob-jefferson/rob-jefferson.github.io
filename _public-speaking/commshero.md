@@ -1,5 +1,5 @@
 ---
-type: "\U0001F6E0️Workshop"
+type: "\U0001F6E0️ Workshop"
 date: 2018-05-15 23:00:00 +0000
 title: CommsHero
 location: Leeds
