@@ -10,7 +10,6 @@ I've been really lucky to be asked to to speak at conferences, be interviewed on
 
 If you'd like me to come and speak at your event, organisation or business then please do [get in touch](mailto:rob@knaptonwright.co.uk).
 
-## Test
 <div class="card-columns">
 {% assign public-speaking2 = site.public-speaking | sort: 'date' | reverse %}
 {% capture currentDate %}
@@ -33,7 +32,7 @@ If you'd like me to come and speak at your event, organisation or business then 
 {% endfor %}
 </div>
 
-## Upcoming engagements
+<!--## Upcoming engagements
 
 ### 2020
 
@@ -202,4 +201,4 @@ If you'd like me to come and speak at your event, organisation or business then 
 <small class="text-muted">16th May 2018</small>
 </div>
 </div>
-</div>
+</div>-->
