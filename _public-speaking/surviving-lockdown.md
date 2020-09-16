@@ -3,7 +3,6 @@ type: "\U0001F399️ Podcast"
 date: 2020-08-24 23:00:00 +0000
 title: Surviving Lockdown
 location: Online
-published: false
 
 ---
 An essential business podcast from [Mark Ryes Voiceovers](https://markryes.com/)
