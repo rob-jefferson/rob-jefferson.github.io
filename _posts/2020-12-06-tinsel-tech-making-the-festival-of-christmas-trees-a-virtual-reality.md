@@ -8,7 +8,7 @@ image_alt: Interior of Old Brumby Church at night full of pretty Christmas trees
 image_caption: How the festival usually looks
 photo_credit: Rob Jefferson
 photographer_url: ''
-date: 
+date: 2020-12-06 00:00:00 +0000
 categories:
 - vfot
 - rotary
