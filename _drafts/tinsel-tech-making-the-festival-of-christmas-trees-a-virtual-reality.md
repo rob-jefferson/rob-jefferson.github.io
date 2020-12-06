@@ -1,7 +1,7 @@
 ---
 author: Rob Jefferson
 layout: post
-title: 'Tinsel Tech: Making the Festival of Christmas Trees, a virtual reality'
+title: 'Tinsel Tech: Making the Festival of Christmas Trees a virtual reality'
 image: "/uploads/old-brumby-trees.jpg"
 image_alt: Interior of Old Brumby Church at night full of pretty Christmas trees with
   colourful lights.
