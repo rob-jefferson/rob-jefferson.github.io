@@ -16,6 +16,29 @@ If you'd like me to come and speak at your event, organisation or business then 
 </div>
 </div>
 
+## 2021
+
+<div class="row row-cols-1 row-cols-md-3">
+{% assign talks2021 = site.public-speaking | sort: 'date' | reverse | where: "date", "2021" %}
+{% for public-speaking in talks2021 %}
+<div class="col mb-3">
+<div class="card">
+<div class="card-header">
+{{public-speaking.type}}
+</div>
+<div class="card-body">
+<h4 class="card-title">{{public-speaking.title}}</h4>
+<h5 class="card-subtitle mb-2 text-muted">{{public-speaking.location}}</h5>
+<p class="card-text">{{ public-speaking.content | markdownify }}</p>
+</div>
+<div class="card-footer">
+<small class="text-muted">{{public-speaking.date | date_to_long_string}}</small>
+</div>
+</div>
+</div>
+{% endfor %}
+</div>
+
 ## 2020
 
 <div class="row row-cols-1 row-cols-md-3">
