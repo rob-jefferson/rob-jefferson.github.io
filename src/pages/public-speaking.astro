@@ -1,0 +1,31 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+
+const talks = (await getCollection('talks')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const rendered = await Promise.all(talks.map(async (t) => ({ t, Content: (await render(t)).Content })));
+const years = [...new Set(talks.map((t) => t.data.date.getUTCFullYear()))];
+const fmt = (d: Date) => d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+---
+<Base title="Public speaking" description="Talks, workshops and podcasts by Rob Jefferson.">
+  <h1>Public speaking</h1>
+  <p class="lead">
+    I've been lucky enough to speak at conferences, be interviewed on podcasts and present webinars.
+    If you'd like me to speak at your event, <a href="mailto:rob@toolproof.com.au">get in touch</a>.
+  </p>
+  {years.map((year) => (
+    <section>
+      <h2>{year}</h2>
+      <div class="cards">
+        {rendered.filter(({ t }) => t.data.date.getUTCFullYear() === year).map(({ t, Content }) => (
+          <article class="card">
+            <p class="card-type">{t.data.type}</p>
+            <h3>{t.data.title}</h3>
+            <p class="card-meta">{t.data.location} · {fmt(t.data.date)}</p>
+            <Content />
+          </article>
+        ))}
+      </div>
+    </section>
+  ))}
+</Base>

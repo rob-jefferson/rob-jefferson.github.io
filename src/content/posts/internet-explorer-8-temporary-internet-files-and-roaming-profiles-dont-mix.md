@@ -1,0 +1,10 @@
+---
+title: "Internet Explorer 8, Temporary Internet Files and Roaming Profiles don't mix!"
+date: 2012-03-15T12:35:40.000Z
+tags: ["IE","IE8","Internet Explorer","Roaming profiles","Temporary Internet Files","Technology"]
+---
+<p>Think I've finally solved a problem that's been bugging me for months. Was experiencing an issue whereby roaming users were finding that IE kept freezing or locking up a few seconds into loading. It was definitely user-based as I could log on with a different (local profiled) user and not experience any problems.</p>
+<p>Turns out there's an issue which I wasn't aware of with roaming profiles and IE temp files. This would explain why deleting the user profile and data would temporarilly fix the problem until the temp internet files file grew again.</p>
+<p>It's a really simple fix: in Tools -&gt; Internet Options, go to Advanced tab, scroll to Security and tick "Empty Temporary Internet Files folder when browser is closed". I'm hoping this will also fix a long log-off time too where I'm guessing it was having problems syncing the temp internet files.</p>
+<p>More info here: <a href="http://support.microsoft.com/kb/185255" target="_blank">http://support.microsoft.com/kb/185255</a></p>
+<p>Keeping my fingers crossed. Just need to find out how to deploy this setting via group policy now.</p>

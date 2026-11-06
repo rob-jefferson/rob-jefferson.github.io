@@ -1,0 +1,23 @@
+---
+title: "I get by with a little help from my..Google Analytics Search Terms report"
+date: 2017-01-26T20:04:13.000Z
+image: "../../assets/uploads/6157407129_c3feeb9202_b.jpg"
+imageAlt: "Rows of tabs categorising the music or albums of bands"
+photoCredit: "Andrew Smith"
+photographerUrl: "https://www.flickr.com/photos/andrewasmith/6157407129"
+tags: ["google analytics","site search","user needs","user research","imported from wordpress","Technology"]
+---
+<p>OK, so it’s maybe not as catchy a title as <a href="https://www.google.co.uk/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwi6-ujYg-DRAhVLK8AKHabkBMgQyCkIHTAA&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DSkyqRP8S93Y&amp;usg=AFQjCNHyIDxOV9p5L9c2AP_PLI01h9ePng&amp;sig2=-1kxfmPzoJrY_QaZj_0I9A&amp;bvm=bv.145063293,d.ZGg">the original</a> I grant you but I’ve been reminded today of how useful the search terms report in Google Analytics can be for <strong>discovering user needs</strong>.</p>
+<p>For the uninitiated, Google Analytics (GA) is a tool which measures the use of your website by those who visit it. If you’ve <a href="https://support.google.com/analytics/answer/1012264?hl=en">configured it correctly</a>, one of its many functions is to capture what people type in the search box on your website when trying to find things. What’s important about this is that these search terms provide little nuggets of insight into what visitors really want from you.</p>
+<h1>Real needs of real people</h1>
+<p>By analysing the <a href="https://support.google.com/adwords/answer/2472708?hl=en-GB">search terms report</a> in GA, you can start to draw immediate insight from what you’re seeing. For example, just today I looked up searches on the <a href="http://www.doncaster.gov.uk">Doncaster Council website</a> containing the word “help”. Aside from the worrying number of people that searched simply for “help” on the site, it started to reveal a pattern. Can you spot it?</p>
+![Google Analytics search terms report. The top searches are "help with school uniform" (54), "early help" (44) and "help with school uniform costs" (23).](../../assets/uploads/screen-shot-2017-01-26-at-12-53-36.png)
+<p>Of the top 11 searches, 120 people have searched for help relating to school uniforms. What’s not immediately clear is exactly <i>what sort </i>of help is required with school uniforms but number 3 is probably the most revealing, and likely. It would be wrong of me to <a href="https://www.amazon.co.uk/dp/B00PW634YQ/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&amp;colid=1FCA01SHYE6K3&amp;coliid=I3FUSJ5Y9K5YOQ">make assumptions</a> of course.</p>
+<h1>So what?</h1>
+<p>It took me about 30 seconds to find this. Armed with the information, my first task would be to see what content comes up against those search terms, if anything at all.</p>
+<p>If it's missing, we can work with the appropriate team to see if this is a need we should be meeting or, if not, where to signpost visitors to. If it does exist then perhaps we have some work to do to make the content easier to find.</p>
+<p>The report effectively sets off a voyage of discovery of how well your content meets the needs of your visitors. This is just one of <a href="https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs">many ways to explore user needs</a> so you can start to make your website more effective.</p>
+<p>At a more strategic level, this data <em>could</em> even feed into policy making if it indicates a wider societal need.</p>
+<p>When working with other teams at Doncaster Council, we’re using this report more and more to have interesting discussions with them. It can help them better understand how the website can work <i>for</i> them to reduce unnecessary contacts (thus saving time and money) and ultimately to make life easier for residents &amp; businesses in the borough.</p>
+<h1>Over to you</h1>
+<p>This post is about only one part of a very specific report in GA which has <a href="https://moz.com/blog/5-actionable-analytics-reports-for-internal-site-search">plenty of other ways</a> to gain insight. How are you using it to benefit you and your organisation? I'd love to hear your thoughts in the comments section.</p>

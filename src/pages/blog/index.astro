@@ -1,0 +1,22 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('posts', (p) => !p.data.draft)).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const byYear = new Map<number, typeof posts>();
+for (const p of posts) {
+  const y = p.data.date.getUTCFullYear();
+  byYear.set(y, [...(byYear.get(y) ?? []), p]);
+}
+---
+<Base title="Posts" description="Longer posts by Rob Jefferson.">
+  <h1>Posts</h1>
+  {[...byYear].map(([year, items]) => (
+    <section>
+      <h2>{year}</h2>
+      <ul class="plain">
+        {items.map((p) => <li><a href={`/blog/${p.id}/`}>{p.data.title}</a></li>)}
+      </ul>
+    </section>
+  ))}
+</Base>

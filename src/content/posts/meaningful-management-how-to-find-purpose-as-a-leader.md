@@ -1,0 +1,29 @@
+---
+title: "Meaningful management: How to find purpose as a leader"
+date: 2015-10-20T06:56:50.000Z
+image: "../../assets/uploads/bulb-disruption1.jpg"
+imageAlt: "Line of light bulbs with one illuminated."
+imageCaption: "A 'lightbulb moment' on my leadership journey"
+tags: ["influence","leadership","mangement","meaning","purpose","wellbeing","Leadership and Management"]
+---
+<p>As a rookie local government manager, I've been trying to get a grasp of transitioning from getting meaning &amp; purpose from operational outcomes to ones which come from being more strategic at work.</p>
+<p>Without getting too deep about it all, I think I've been finding it difficult to find anything massively tangible so far.</p>
+<p>This isn't to say that I don't feel like I've been making a (positive) impact, nor have I not been enjoying myself - I <em>really</em> have - but I think it's more about recognising that the usual ways of finding purpose and meaning at work are changing for me.</p>
+<p>I think the problem is, I've been looking for answers in the wrong places.</p>
+<h2>Focusing on others</h2>
+<p>The epiphany finally came when I listened to one of the <a href="https://soundcloud.com/slackvarietypack" target="_blank">cracking podcasts</a> from the guys and girls at <a href="http://www.slack.com" target="_blank">Slack</a>. If you've not experimented with Slack as an internal collaboration tool I highly recommend it.</p>
+<blockquote><p>Find wellbeing through contributing towards other's success</p></blockquote>
+<p>A particular <a href="https://soundcloud.com/slacksingleservings/everything-you-know-about-workplace-well-being-is-wrong">segment of the podcast</a> - or 'single serving' as Slack put it - features an interview with <a href="https://twitter.com/TomCRath" target="_blank">Tom Rath</a>. Tom is an author and researcher who studies the role of human behaviour in business, health, and well-being.</p>
+<p>In the interview, he talks about to how to find wellbeing through focusing more on the people your work is helping and contributing towards other's success.</p>
+<p>This could be by passing on knowledge, encouraging &amp; supporting self-development or helping others to problem-solve rather than solving problems for them.</p>
+<h2>Encouraging disruption</h2>
+<p>I think it's also about giving your team the space and confidence to experiment without fear of failure.</p>
+<p>As <a href="https://twitter.com/PaulBromford">Paul Taylor</a> from <a href="http://www.bromford.co.uk/">Bromford</a> in <a href="https://medium.com/@PaulBromford/do-the-right-thing-not-the-rule-thing-80a0f0286f74">his latest blog</a> succinctly puts it:</p>
+<blockquote><p><em class="markup--em markup--p-em">[It] isn’t about policies , systems and protocol. It’s letting people do what they do best — being brilliant as only THEY can be.</em></p></blockquote>
+<p>I really like <a href="https://twitter.com/PhilippaJones2" target="_blank">Paul's CEO's</a> attitude to actively encourage rule breaking in order to disrupt the very foundations of their organisation too.</p>
+<p>There's a massive opportunity working for a council to stand out and be different and I, with the rest of our team, want to take it.</p>
+<h2>Recognising what's valuable</h2>
+<p>No longer is it about just finding purpose from completing work packages and through ticking off operational to-do lists.</p>
+<p>It's now more about smiling when you hear someone passing on a nugget of knowledge that you've previously shared with them, seeing the satisfaction on a team member's face when they solve a complex problem and being proud when a piece of <a href="https://twitter.com/MyDoncaster/status/638667723929702401" target="_blank">finely crafted reactionary content</a> created by your colleagues gets the engagement it deserves.</p>
+<p>All things that have happened in my time so far at <a href="http://www.doncaster.gov.uk" target="_blank">Doncaster Council</a>. Powerful, purposeful stuff.</p>
+<p>Over to you - how do you find purpose and meaning at work?</p>
