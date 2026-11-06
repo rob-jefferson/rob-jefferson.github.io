@@ -1,0 +1,57 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+import { excerpt } from '../../utils';
+import { Image, getImage } from 'astro:assets';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts', (p) => !p.data.draft);
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+const { post } = Astro.props;
+const { Content } = await render(post);
+const d = post.data;
+const date = d.date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+const description = d.description ?? excerpt(post.body);
+const url = new URL(`/blog/${post.id}/`, Astro.site).href;
+// 1200px-wide JPEG for link previews and structured data.
+const share = d.image ? (await getImage({ src: d.image, width: 1200, format: 'jpg', quality: 82 })).src : undefined;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: d.title,
+  datePublished: d.date.toISOString(),
+  ...(description && { description }),
+  ...(share && { image: new URL(share, Astro.site).href }),
+  author: { '@type': 'Person', name: 'Rob Jefferson', url: 'https://robjefferson.uk/' },
+  mainEntityOfPage: url,
+};
+---
+<Base title={d.title} description={description} image={share} imageAlt={d.imageAlt} published={d.date} type="article" jsonLd={jsonLd}>
+  <article class="post">
+    <h1>{d.title}</h1>
+    <p class="meta"><time datetime={d.date.toISOString()}>{date}</time> · Rob Jefferson</p>
+    {d.image && (
+      <figure>
+        <Image
+          src={d.image}
+          alt={d.imageAlt ?? ''}
+          widths={[480, 640, 960, 1280]}
+          sizes="(max-width: 704px) calc(100vw - 2rem), 640px"
+          format="webp"
+          quality={80}
+          loading="eager"
+          fetchpriority="high"
+        />
+        {(d.imageCaption || d.photoCredit) && (
+          <figcaption>
+            {d.imageCaption}
+            {d.photoCredit && <> 📸 {d.photographerUrl ? <a href={d.photographerUrl} rel="noopener">{d.photoCredit}</a> : d.photoCredit}</>}
+          </figcaption>
+        )}
+      </figure>
+    )}
+    <div class="prose"><Content /></div>
+  </article>
+  <p class="back"><a href="/blog/">← All posts</a></p>
+</Base>

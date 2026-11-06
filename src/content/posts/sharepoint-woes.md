@@ -1,0 +1,12 @@
+---
+title: "SharePoint Woes"
+date: 2012-01-28T15:16:20.000Z
+tags: ["cms","help","intranet","microsoft","sharepoint","sharepoint server 2007","technet","tutorial","useful guides","virtual machine","virtual pc","Technology"]
+---
+<p>Been tinkering around with a new SharePoint installation today on a single machine using Virtual PC.</p>
+<p>Came across two very useful guides which refreshed my memory:</p>
+<p>First one is more of a how-to guide on single virtual machine installs:</p>
+<p><a href="http://blogs.msdn.com/b/martinkearn/archive/2007/03/28/how-to-install-sharepoint-server-2007-on-a-single-machine.aspx">http://blogs.msdn.com/b/martinkearn/archive/2007/03/28/how-to-install-sharepoint-server-2007-on-a-single-machine.aspx</a></p>
+<p>Second solved an annoying 401 error after setting it all up involving a loopback issue that needs disabling in the registry:</p>
+<p><a href="http://social.technet.microsoft.com/Forums/en-US/sharepointgeneral/thread/37045920-2bd3-4804-b71f-a55d3d36b97f/">http://social.technet.microsoft.com/Forums/en-US/sharepointgeneral/thread/37045920-2bd3-4804-b71f-a55d3d36b97f/</a></p>
+<p>Hope you find them as useful as I did. If nothing else, this post will jog my memory for next time..</p>

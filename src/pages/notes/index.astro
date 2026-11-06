@@ -1,0 +1,25 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+
+const notes = (await getCollection('notes', (n) => !n.data.draft)).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const rendered = await Promise.all(notes.map(async (n) => ({ n, Content: (await render(n)).Content })));
+const fmt = (d: Date) => d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+---
+<Base title="Notes" description="Short notes from Rob Jefferson.">
+  <h1>Notes</h1>
+  <p class="lead">Short, informal updates. No polish required.</p>
+  {rendered.length === 0 && <p>Nothing here yet.</p>}
+  <ol class="feed">
+    {rendered.map(({ n, Content }) => (
+      <li class="feed-item note">
+        <time datetime={n.data.date.toISOString()}>{fmt(n.data.date)}</time>
+        <div class="note-body">
+          {n.data.title && <h3>{n.data.title}</h3>}
+          <Content />
+          <a class="permalink" href={`/notes/${n.id}/`}>Permalink</a>
+        </div>
+      </li>
+    ))}
+  </ol>
+</Base>

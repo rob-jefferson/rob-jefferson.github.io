@@ -1,6 +1,19 @@
-# Welcome to the source code of my personal website
-This website is hopefully the start of something new.
+# On The Tools
 
-It’s been a bit of a pet project that’s brought together some long-overdue personal development on different projects; creating a progressive web app, version control with Git using GitHub,, Boostrap 4 (as I’ve previously been using version 3) and now, Jekyll.
+Rob Jefferson's personal site, built with [Astro](https://astro.build) and deployed to GitHub Pages.
 
-It’s also introduced me to Forestry to quicken publishing and tinker further.
+## Writing
+
+- **Post**: add `src/content/posts/my-title.md` with `title` and `date` front matter.
+- **Note** (short, no title needed): add `src/content/notes/anything.md` with just a `date`.
+- Set `draft: true` to keep something unpublished.
+
+## Running locally
+
+```
+npm install
+npm run dev      # http://localhost:4321
+npm run build    # outputs to dist/
+```
+
+Site-wide settings (title, links, Substack URL) live in `src/consts.ts`. The primary domain is set in `astro.config.mjs` and `public/CNAME`.

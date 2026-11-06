@@ -1,0 +1,38 @@
+---
+// A mixed, date-sorted list of posts and notes.
+import { getCollection, render } from 'astro:content';
+
+interface Props { limit?: number }
+const { limit } = Astro.props;
+
+const posts = (await getCollection('posts', (p) => !p.data.draft)).map((p) => ({
+  kind: 'post' as const, href: `/blog/${p.id}/`, date: p.data.date, title: p.data.title, entry: p,
+}));
+const notes = (await getCollection('notes', (n) => !n.data.draft)).map((n) => ({
+  kind: 'note' as const, href: `/notes/${n.id}/`, date: n.data.date, title: n.data.title, entry: n,
+}));
+let items = [...posts, ...notes].sort((a, b) => b.date.valueOf() - a.date.valueOf());
+if (limit) items = items.slice(0, limit);
+
+const rendered = await Promise.all(
+  items.map(async (i) => (i.kind === 'note' ? { ...i, Content: (await render(i.entry)).Content } : { ...i, Content: null })),
+);
+const fmt = (d: Date) => d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+---
+<ol class="feed">
+  {rendered.map((i) => (
+    <li class={`feed-item ${i.kind}`}>
+      <p class="eyebrow">{i.kind === 'post' ? 'Post' : 'Note'}</p>
+      <time datetime={i.date.toISOString()}>{fmt(i.date)}</time>
+      {i.kind === 'post' ? (
+        <h3><a href={i.href}>{i.title}</a></h3>
+      ) : (
+        <div class="note-body">
+          {i.title && <h3><a href={i.href}>{i.title}</a></h3>}
+          {i.Content && <i.Content />}
+          <a class="permalink" href={i.href}>Permalink</a>
+        </div>
+      )}
+    </li>
+  ))}
+</ol>

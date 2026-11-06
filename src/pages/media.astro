@@ -1,0 +1,22 @@
+---
+import Base from '../layouts/Base.astro';
+const videos = [
+  { id: '6OuxHLudXv0', title: 'What is Reaching for Success?' },
+  { id: '1OcvRCOMI14', title: 'Lindsey Lodge Sleepwalk 2010' },
+  { id: 'sDo4iLSuMKU', title: 'Lindsey Lodge Hospice Sleepwalk 2008' },
+];
+---
+<Base title="Media" description="Videos and multimedia projects by Rob Jefferson.">
+  <h1>Media</h1>
+  <p class="lead">A bit of a showreel of multimedia projects over the years.</p>
+  <div class="cards">
+    {videos.map((v) => (
+      <article class="card">
+        <div class="video">
+          <iframe src={`https://www.youtube-nocookie.com/embed/${v.id}?rel=0`} title={v.title} loading="lazy" allowfullscreen></iframe>
+        </div>
+        <h3>{v.title}</h3>
+      </article>
+    ))}
+  </div>
+</Base>

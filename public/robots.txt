@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://robjefferson.uk/sitemap-index.xml

@@ -1,0 +1,32 @@
+---
+import Base from '../layouts/Base.astro';
+import Feed from '../components/Feed.astro';
+import { LINKS } from '../consts';
+const person = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Rob Jefferson',
+  url: 'https://robjefferson.uk/',
+  image: 'https://robjefferson.uk/assets/images/rob.webp',
+  description: 'Marketer and analytics specialist based in Australia, founder of Toolproof.',
+  sameAs: [LINKS.toolproof.split('?')[0], LINKS.linkedin, LINKS.github],
+};
+---
+<Base jsonLd={person}>
+  <section class="intro">
+    <img class="avatar" src="/assets/images/rob.webp" alt="Rob Jefferson" width="96" height="96" />
+    <div>
+      <h1>Hi, I'm Rob.</h1>
+      <!-- PLACEHOLDER: edit this intro in your own words. -->
+      <p class="lead">
+        I'm a marketer and analytics nerd, originally from the UK and now living in Australia.
+        I run <a href={LINKS.toolproof}>Toolproof</a>, and this is where I write about the work,
+        the tools and the mistakes along the way.
+      </p>
+    </div>
+  </section>
+
+  <h2>Latest</h2>
+  <Feed limit={8} />
+  <p><a href="/blog/">All posts →</a> · <a href="/notes/">All notes →</a></p>
+</Base>
