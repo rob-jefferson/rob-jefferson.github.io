@@ -1,6 +1,8 @@
 ---
 import '../styles/global.css';
 import { SITE_TITLE, SITE_TAGLINE, SITE_DESCRIPTION, LINKS } from '../consts';
+import Analytics from '../components/Analytics.astro';
+import ConsentBanner from '../components/ConsentBanner.astro';
 
 interface Props {
   title?: string;
@@ -28,6 +30,7 @@ const nav = [
 <html lang="en-GB">
   <head>
     <meta charset="utf-8" />
+    <Analytics />
     <script is:inline>
       // Apply a saved theme before first paint to avoid a flash.
       try { var t = localStorage.getItem('theme'); if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t; } catch (e) {}
@@ -89,8 +92,13 @@ const nav = [
           · <a href={LINKS.linkedin} rel="me">LinkedIn</a>
           · <a href={LINKS.github} rel="me">GitHub</a>
         </p>
+        <p>
+          <a href="/privacy/">Privacy</a>
+          · <button type="button" class="link-button" id="cookie-prefs">Cookie preferences</button>
+        </p>
       </div>
     </footer>
+    <ConsentBanner />
       <script>
       const btn = document.getElementById('theme-toggle');
       btn?.addEventListener('click', () => {
