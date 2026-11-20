@@ -125,3 +125,7 @@ ul.plain li { padding: 0.35rem 0; }
 .consent-btn--primary { background: var(--accent); border-color: var(--accent); color: var(--bg); }
 @media (max-width: 30rem) { .consent-btn { flex: 1 1 auto; } }
 @media (prefers-reduced-motion: reduce) { .consent, .consent-backdrop { transition: none; } }
+
+/* Footer link rows, separated by a middot drawn in CSS so spacing never depends on whitespace */
+.footer-links { list-style: none; margin: 0.25rem 0; padding: 0; display: flex; flex-wrap: wrap; }
+.footer-links li + li::before { content: "·"; margin: 0 0.45em; }

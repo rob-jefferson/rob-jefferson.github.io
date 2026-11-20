@@ -83,19 +83,19 @@ const nav = [
     <footer class="site-footer">
       <div class="wrap">
         <p>
-          © 2008–{new Date().getFullYear()} Rob Jefferson. I also run
+          © 2008–{new Date().getFullYear()} Rob Jefferson. I also run{' '}
           <a href={LINKS.toolproof}>Toolproof</a>.
         </p>
-        <p>
-          <a href="/rss.xml">RSS</a>
-          {LINKS.substack && <> · <a href={LINKS.substack}>Substack</a></>}
-          · <a href={LINKS.linkedin} rel="me">LinkedIn</a>
-          · <a href={LINKS.github} rel="me">GitHub</a>
-        </p>
-        <p>
-          <a href="/privacy/">Privacy</a>
-          · <button type="button" class="link-button" id="cookie-prefs">Cookie preferences</button>
-        </p>
+        <ul class="footer-links">
+          <li><a href="/rss.xml">RSS</a></li>
+          {LINKS.substack && <li><a href={LINKS.substack}>Substack</a></li>}
+          <li><a href={LINKS.linkedin} rel="me">LinkedIn</a></li>
+          <li><a href={LINKS.github} rel="me">GitHub</a></li>
+        </ul>
+        <ul class="footer-links">
+          <li><a href="/privacy/">Privacy</a></li>
+          <li><button type="button" class="link-button" id="cookie-prefs">Cookie preferences</button></li>
+        </ul>
       </div>
     </footer>
     <ConsentBanner />
