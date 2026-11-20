@@ -114,7 +114,7 @@ ul.plain li { padding: 0.35rem 0; }
 
 /* Cookie consent dialog */
 .consent-backdrop { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.5); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); opacity: 0; transition: opacity 0.25s; z-index: 50; }
-.consent { position: fixed; z-index: 51; left: 1rem; right: 1rem; bottom: 1rem; max-width: 34rem; margin: 0 auto; padding: 1.25rem; background: var(--bg); color: var(--fg); border: 1px solid var(--rule); border-radius: 10px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25); opacity: 0; transform: translateY(1rem); transition: opacity 0.25s, transform 0.25s; }
+.consent { position: fixed; z-index: 51; inset: 1rem; height: fit-content; max-height: calc(100vh - 2rem); overflow-y: auto; max-width: 34rem; margin: auto; padding: 1.25rem; background: var(--bg); color: var(--fg); border: 1px solid var(--rule); border-radius: 10px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25); opacity: 0; transform: translateY(1rem); transition: opacity 0.25s, transform 0.25s; }
 .consent:focus { outline: none; }
 .consent.is-visible, .consent-backdrop.is-visible { opacity: 1; }
 .consent.is-visible { transform: none; }
