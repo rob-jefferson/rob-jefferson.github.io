@@ -1,0 +1,29 @@
+---
+// GA4 with Google Consent Mode v2. Everything starts "denied"; analytics is
+// only granted once the visitor accepts in the consent banner. Must sit in
+// <head> before any other tags so the default applies to the first hit.
+import { GA_MEASUREMENT_ID, CONSENT_KEY } from '../consts';
+const enabled = import.meta.env.PROD;
+---
+{enabled && (
+  <>
+    <script is:inline define:vars={{ id: GA_MEASUREMENT_ID, key: CONSENT_KEY }}>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      window.gtag = gtag;
+      gtag('consent', 'default', {
+        analytics_storage: 'denied',
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        wait_for_update: 500,
+      });
+      try {
+        if (localStorage.getItem(key) === 'granted') gtag('consent', 'update', { analytics_storage: 'granted' });
+      } catch (e) {}
+      gtag('js', new Date());
+      gtag('config', id);
+    </script>
+    <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}></script>
+  </>
+)}

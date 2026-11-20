@@ -10,3 +10,8 @@ export const LINKS = {
   linkedin: 'https://www.linkedin.com/in/robjjefferson/',
   github: 'https://github.com/rob-jefferson',
 };
+
+// Google Analytics 4. Loaded only in production builds, behind Consent Mode.
+export const GA_MEASUREMENT_ID = 'G-X4224B808P';
+// localStorage key holding the visitor's choice: 'granted' | 'denied'.
+export const CONSENT_KEY = 'consent';

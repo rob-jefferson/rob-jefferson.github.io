@@ -1,0 +1,84 @@
+---
+import { CONSENT_KEY } from '../consts';
+---
+<div class="consent-backdrop" id="consent-backdrop" hidden></div>
+<div class="consent" id="consent" role="dialog" aria-modal="true" aria-labelledby="consent-title" aria-describedby="consent-text" tabindex="-1" hidden>
+  <h2 class="consent-title" id="consent-title">Your cookie preferences</h2>
+  <p class="consent-text" id="consent-text">
+    I use Google Analytics cookies to see how people find and use this site. You can accept them or
+    continue with necessary cookies only. <a href="/privacy/">Privacy policy</a>
+  </p>
+  <div class="consent-actions">
+    <button type="button" class="consent-btn" data-consent="denied">Necessary only</button>
+    <button type="button" class="consent-btn consent-btn--primary" data-consent="granted">Accept all</button>
+  </div>
+</div>
+
+<script is:inline define:vars={{ key: CONSENT_KEY }}>
+  (function () {
+    var banner = document.getElementById('consent');
+    var backdrop = document.getElementById('consent-backdrop');
+    var lastFocused = null;
+    var get = function () { try { return localStorage.getItem(key); } catch (e) { return null; } };
+    var set = function (v) { try { localStorage.setItem(key, v); } catch (e) {} };
+    var clear = function () { try { localStorage.removeItem(key); } catch (e) {} };
+
+    // Remove Google Analytics cookies (set on the bare domain, e.g. .robjefferson.uk).
+    function clearGaCookies() {
+      var host = location.hostname.replace(/^www\./, '');
+      document.cookie.split(';').forEach(function (c) {
+        var name = c.split('=')[0].trim();
+        if (!/^_ga/.test(name)) return;
+        ['', '; domain=' + host, '; domain=.' + host].forEach(function (d) {
+          document.cookie = name + '=; Max-Age=0; path=/' + d;
+        });
+      });
+    }
+
+    function focusable() { return Array.prototype.slice.call(banner.querySelectorAll('a[href], button:not([disabled])')); }
+
+    function onKeydown(e) {
+      if (e.key === 'Escape') { e.preventDefault(); hide(); return; }
+      if (e.key !== 'Tab') return;
+      var f = focusable(); if (!f.length) return;
+      var first = f[0], last = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    }
+
+    function show() {
+      lastFocused = document.activeElement;
+      banner.hidden = false; backdrop.hidden = false;
+      requestAnimationFrame(function () { requestAnimationFrame(function () {
+        banner.classList.add('is-visible'); backdrop.classList.add('is-visible'); banner.focus();
+      }); });
+      document.addEventListener('keydown', onKeydown);
+    }
+
+    function hide() {
+      banner.classList.remove('is-visible'); backdrop.classList.remove('is-visible');
+      document.removeEventListener('keydown', onKeydown);
+      setTimeout(function () { banner.hidden = true; backdrop.hidden = true; }, 250);
+      if (lastFocused && lastFocused.focus) lastFocused.focus();
+      lastFocused = null;
+    }
+
+    banner.querySelectorAll('[data-consent]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var choice = btn.getAttribute('data-consent');
+        var previous = get();
+        set(choice);
+        if (window.gtag) window.gtag('consent', 'update', { analytics_storage: choice });
+        if (choice === 'denied') clearGaCookies();
+        hide();
+        // Reload after a change so GA records this page view under the new choice.
+        if (window.gtag && choice !== previous) location.reload();
+      });
+    });
+
+    var prefs = document.getElementById('cookie-prefs');
+    if (prefs) prefs.addEventListener('click', function () { clear(); show(); });
+
+    if (!get()) setTimeout(show, 800);
+  })();
+</script>
